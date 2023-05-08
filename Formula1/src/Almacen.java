@@ -47,7 +47,7 @@ public class Almacen {
                 this.listaPilotos.add(piloto);
             }
 
-            System.out.println("Datos cargados con éxito.\n");
+            System.out.println(Colores.GREEN_BOLD + "Datos de piloto cargados con éxito.\n" + Colores.RESET);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -78,7 +78,7 @@ public class Almacen {
                 this.listaCoche.add(coche);
             }
 
-            System.out.println("Datos cargados con éxito.\n");
+            System.out.println(Colores.YELLOW_BOLD + "Datos de coche cargados con éxito.\n" + Colores.RESET);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -112,7 +112,7 @@ public class Almacen {
                 this.listaCircuito.add(circuito);
             }
 
-            System.out.println("Datos cargados con éxito.\n");
+            System.out.println(Colores.PURPLE_BOLD + "Datos de circuito cargados con éxito.\n" + Colores.RESET);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -141,7 +141,7 @@ public class Almacen {
 
             outputStream.close();
 
-            System.out.println("Datos guardados con éxito.\n");
+            System.out.println(Colores.GREEN_BOLD + "Datos de piloto guardados con éxito.\n" + Colores.RESET);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -168,7 +168,7 @@ public class Almacen {
 
             outputStream.close();
 
-            System.out.println("Datos guardados con éxito.\n");
+            System.out.println(Colores.YELLOW_BOLD + "Datos de coche guardados con éxito.\n" + Colores.RESET);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -195,7 +195,7 @@ public class Almacen {
 
             outputStream.close();
 
-            System.out.println("Datos guardados con éxito.\n");
+            System.out.println(Colores.PURPLE_BOLD + "Datos de circuito guardados con éxito.\n" + Colores.RESET);
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
